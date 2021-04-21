@@ -9,7 +9,7 @@ body, html {
 }
 
 h1 {
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   text-align: center;
 }
 
@@ -139,3 +139,12 @@ h2{
 }
  /*recenter the list */
 }
+
+@media only screen and (max-device-width: 600px) {
+
+.list-inline {
+  left: 16vw;
+  top: 51vw;
+
+}
+} 
